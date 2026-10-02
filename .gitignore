@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+pipeline/venv/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Temp files from pipeline
+wiki_*.md
+script_*.sh
+
+# Stress testing artifacts
+stress_test.sh
+stress_test_report_*.md
+
+# Reference material (not part of app)
+Persistent-Mentorship/
